@@ -13,7 +13,7 @@ baseurl: ""
 lang: en
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale:
+prefer_datetime_locale: dd/MM/yyyy
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/London
@@ -29,7 +29,7 @@ description: >- # used by seo meta and the atom feed
   my info sec blog
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://sad12x.github.io"
 
 github:
   username: sad12x # change to your github username
@@ -83,7 +83,7 @@ theme_mode: dark
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "assets/profile.png"
 
 # boolean type, the global switch for ToC in posts.
 toc: true
